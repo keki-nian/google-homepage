@@ -1,23 +1,13 @@
-a {
-color: black;
-text-decoration: none;
-margin: 20px;
-margin-top: 25px;
+* {
+padding: 0;
+margin: 0;
 }
 
-button {
-color: white;
-margin: 20px;
-background-color: #4285f4;
-padding: 5px 10px 5px 10px;
-}
-
-img {
-display: block;
-margin-left: auto;
-margin-right: auto;
-padding: 100px;
-padding-bottom: 50px;
+body {
+font-family: arial, sans-serif;
+font-size: 14px;
+text-align: center;
+height: 100%;
 }
 
 nav {
@@ -25,11 +15,103 @@ display: flex;
 justify-content: right;
 }
 
-body {
+a {
+font-size: 13px;
+color: black;
+text-decoration: none;
+margin: 15px 13px 15px 13px;
+}
+
+nav button {
+color: white;
+margin: 5px;
+margin-right: 35px;
+margin-left: 15px;
+background-image: -moz-linear-gradient(rgb(67, 135, 253), rgb(70, 131, 234));
+padding: 5px 10px 5px 10px;
+}
+
+.apps img {
+width: 20px;
+height: 20px;
+margin: 13px 10px 5px 5px;
+cursor: pointer;
+}
+
+img.google {
+display: block;
+margin-left: auto;
+margin-right: auto;
 text-align: center;
+margin-top: 100px;
+margin-bottom: 25px;
+}
+
+main {
+height: 280px;
+margin-bottom: 80px;
+}
+
+.search-bar {
+background-color: white;
+margin: auto;
+margin-bottom: 5px;
+}
+
+.search-icon {
+}
+
+.search-icon img {
+z-index: 2;
+width: 1.2%;
+position: relative;
+left: -246px;
+top: 17px;
 }
 
 input {
 height: 50px;
 width: 500px;
+margin-top: 0px;
+margin: auto;
+border: 1px solid rgb(228, 228, 228);
+border-radius: 30px;
+padding-left: 50px;
+position: relative;
+top: -20px;
+}
+
+.button {
+margin-bottom: 15px;
+padding: 5px;
+}
+
+.button-under {
+height: 36px;
+}
+
+.bahasa {
+color: rgb(26, 13, 171);
+}
+
+footer {
+text-align: left;
+}
+
+.foot-1 {
+background-color: rgb(242, 242, 242);
+border: 1px solid rgb(228, 228, 228);
+padding: 15px;
+padding-left: 40px;
+}
+
+.foot-2 {
+background-color: rgb(242, 242, 242);
+border: 1px solid rgb(228, 228, 228);
+padding: 15px;
+padding-left: 30px;
+}
+
+span {
+padding-left: 690px;
 }
